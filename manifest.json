@@ -1,0 +1,24 @@
+  {
+    "name": "Crave Party",
+    "version": "1.0",
+    "description": "Stream Crave in sync with your buddies",
+    "permissions": [
+      "storage",
+      "contextMenus",
+      "activeTab",
+      "declarativeContent"
+    ],
+    "background": {
+      "scripts": ["src/background.js"],
+      "persistent": true
+    },
+    "page_action": {
+      "default_icon": {                   
+        "16": "images/logo.png",
+        "24": "images/logo.png",
+        "32": "images/logo.png"
+      },
+      "default_title": "Crave Party"
+    },
+    "manifest_version": 2
+  }
