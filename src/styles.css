@@ -1,3 +1,41 @@
 .site {
     width: 70% !important;
 }
+
+.party-sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.sidebar-title {
+    color: #00c1f3;
+    width: 100%;
+    text-align: center;
+    padding: 18px 10px 15px 10px;
+}
+
+.sidebar-chat {
+    background-color: black;
+    height: 80%;
+    width: 100%;
+    padding: 20px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.text-input {
+    background-color: #404040;
+    color: white;
+    margin: 10px;
+    height: 20px;
+    font-size: 10px;
+    width: 92%;
+    box-shadow: none;
+    border: none;
+    padding-left: 10px;
+}
