@@ -9,7 +9,7 @@
       "declarativeContent"
     ],
     "background": {
-      "scripts": ["src/background.js"],
+      "scripts": ["thirdParty/jquery-3.5.0.js", "src/background.js"],
       "persistent": true
     },
     "page_action": {
@@ -20,5 +20,11 @@
       },
       "default_title": "Crave Party"
     },
+    "content_scripts": [{
+      "css": ["src/styles.css"],
+      "js": ["thirdParty/jquery-3.5.0.js", "src/partyScript.js"],
+      "html": ["src/script.html"],
+      "matches": ["https://www.crave.ca/*"]
+    }],
     "manifest_version": 2
   }
