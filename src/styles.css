@@ -15,6 +15,16 @@
     width: 100%;
     text-align: center;
     padding: 18px 10px 15px 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.sidebar-options {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #383838;
+    color: white;
 }
 
 .sidebar-chat {
@@ -26,10 +36,11 @@
 
 p {
     font-size: 10px;
+    margin-bottom: 0.5rem !important;
 }
 
 .text-input {
-    background-color: #404040;
+    background-color: #383838;
     color: white;
     margin: 10px;
     height: 20px;

@@ -6,7 +6,8 @@
       "storage",
       "contextMenus",
       "activeTab",
-      "declarativeContent"
+      "declarativeContent",
+      "tabs"
     ],
     "background": {
       "scripts": ["thirdParty/jquery-3.5.0.js", "src/background.js"],
